@@ -15,12 +15,16 @@
 
 <p align="center" style="color:#c9d1d9;">A paradox. A seeker of truth. A breaker of things. A fixer of knowledge.</p>
 
----
+
+
+<div align="center" style="background-color:#0d1117; color:#c9d1d9;">
+
+  <img width="25%" align='center' src="https://github.com/user-attachments/assets/9c826dd0-fd72-49ba-af60-e79f64344f59">
+
+</div>
+
 
 <h2 id="present_status" style="color:#c9d1d9;">Present Status</h2>
-
-<img width="25%" align='right' src="https://github.com/user-attachments/assets/9c826dd0-fd72-49ba-af60-e79f64344f59">
-
 <table style="width:100%; border-collapse: collapse; background-color:#161b22; color:#c9d1d9;">
   <tr style="background-color:#21262d;">
     <th>Date</th>
