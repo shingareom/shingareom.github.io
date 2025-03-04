@@ -31,6 +31,10 @@
     <th>Update</th>
   </tr>
   <tr>
+    <td>2025-03-04</td>
+<td>VIIT CyberCell is LIT! Good CTF, though. My team is in 35th place.</td>
+  </tr>
+  <tr>
     <td>2025-03-03</td>
     <td>SLAE Module 1 completed. Module 2 begins today.</td>
   </tr>
