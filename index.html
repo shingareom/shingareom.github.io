@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal blog about life, philosophy, and introspection">
+    <meta name="keywords" content="personal blog, philosophy, quotes, life experiences, tragedies">
+    <meta name="author" content="Your Name">
+
+    <title>Introspect | A Personal Journey</title>
+
+    <!-- Tektur Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">Introspect</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#philosophy">Philosophy</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Welcome to My Inner World</h1>
+                <p>Thoughts, experiences, and philosophical musings</p>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello, I'm Om Shingare. Here, I share my thoughts, philosophies</p>
+                    <p>Through my writing.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog" class="blog-section">
+            <h2>Recent Blog Posts</h2>
+            <div id="blog-grid" class="blog-grid">
+                <!-- Blog posts will be loaded from JSON -->
+                <div class="loading-spinner">
+                    <div class="spinner"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="philosophy" class="quotes-section">
+            <h2>Philosophical Fragments</h2>
+            <div id="quotes-container" class="quotes-container">
+                <!-- Quotes will be loaded from JSON -->
+                <div class="loading-spinner">
+                    <div class="spinner"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <h2>Portfolio</h2>
+            <div id="portfolio-grid" class="portfolio-grid">
+                <!-- Portfolio items will be loaded from JSON -->
+                <div class="loading-spinner">
+                    <div class="spinner"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>© 2023 Introspect. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/shingareom?originalSubdomain=in" target="_blank" aria-label="LinkedIn"><span class="social-icon">💼</span></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Blog Post Modal -->
+    <div id="post-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modal-content-container">
+                <!-- Content will be loaded dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
